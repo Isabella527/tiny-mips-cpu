@@ -138,7 +138,7 @@ Logic synthesis was performed using:
 
 ---
 
-## 🔍 DFT / Scan Insertion
+##  DFT / Scan Insertion
 
 Design-for-Test (DFT) was implemented using Synopsys DFT Compiler.
 
@@ -155,7 +155,7 @@ Known limitation:
 
 ---
 
-## 🧱 Physical Design
+##  Physical Design
 
 Place-and-route was completed using Cadence Innovus.
 
@@ -235,7 +235,7 @@ Some FSM registers lacked scan-equivalent cells in the OSU library.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Add pipelining
 - Expand instruction set
@@ -246,7 +246,7 @@ Some FSM registers lacked scan-equivalent cells in the OSU library.
 
 ---
 
-## 📚 Tools Used
+## ⚒️ Tools Used
 
 | Category | Tool |
 |---|---|
