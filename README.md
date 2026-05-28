@@ -1,4 +1,7 @@
-<img width="266" height="150" alt="edited_tiny_mips_cpu_flyer" src="https://github.com/user-attachments/assets/86a3bf47-7c50-4727-b9ab-d22324c15817" /># ⚡ Tiny MIPS CPU
+# ⚡ Tiny MIPS CPU
+
+<img width="266" height="150" alt="edited_tiny_mips_cpu_flyer" src="https://github.com/user-attachments/assets/86a3bf47-7c50-4727-b9ab-d22324c15817" />
+![Uploading tiny_mips_cpu_flyer_landscape copy.png…]()
 
 
 An 8-bit multicycle Tiny MIPS processor implemented in Verilog and taken through the complete ASIC design flow:
