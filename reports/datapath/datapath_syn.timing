@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : datapath
+Version: O-2018.06-SP1
+Date   : Sun May 10 13:34:18 2026
+****************************************
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: alusrcb[0] (input port clocked by clk)
+  Endpoint: zero (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    2.00       2.00 f
+  alusrcb[0] (in)                                         0.00       2.00 f
+  src2mux/s[0] (mux4_0)                                   0.00       2.00 f
+  src2mux/U3/Y (INVX2)                                    0.06       2.06 r
+  src2mux/U29/Y (NOR2X1)                                  0.68       2.74 f
+  src2mux/U27/Y (AOI22X1)                                 0.18       2.92 r
+  src2mux/U25/Y (NAND2X1)                                 0.17       3.09 f
+  src2mux/y[0] (mux4_0)                                   0.00       3.09 f
+  main_alu/b[0] (alu)                                     0.00       3.09 f
+  main_alu/U52/Y (XNOR2X1)                                0.30       3.39 f
+  main_alu/add_1_root_add_19_2/B[0] (alu_DW01_add_0)      0.00       3.39 f
+  main_alu/add_1_root_add_19_2/U1_0/YC (FAX1)             0.46       3.86 f
+  main_alu/add_1_root_add_19_2/U1_1/YC (FAX1)             0.45       4.31 f
+  main_alu/add_1_root_add_19_2/U1_2/YC (FAX1)             0.45       4.77 f
+  main_alu/add_1_root_add_19_2/U1_3/YC (FAX1)             0.45       5.22 f
+  main_alu/add_1_root_add_19_2/U1_4/YC (FAX1)             0.45       5.67 f
+  main_alu/add_1_root_add_19_2/U1_5/YC (FAX1)             0.45       6.13 f
+  main_alu/add_1_root_add_19_2/U1_6/YC (FAX1)             0.45       6.58 f
+  main_alu/add_1_root_add_19_2/U1_7/YS (FAX1)             0.47       7.06 r
+  main_alu/add_1_root_add_19_2/SUM[7] (alu_DW01_add_0)
+                                                          0.00       7.06 r
+  main_alu/U2/Y (AND2X2)                                  0.15       7.21 r
+  main_alu/U38/Y (AOI22X1)                                0.13       7.34 f
+  main_alu/U37/Y (NAND2X1)                                0.22       7.56 r
+  main_alu/result[0] (alu)                                0.00       7.56 r
+  zd/a[0] (zerodetect)                                    0.00       7.56 r
+  zd/U4/Y (NOR2X1)                                        0.15       7.70 f
+  zd/U2/Y (NAND2X1)                                       0.15       7.86 r
+  zd/U1/Y (NOR2X1)                                        0.07       7.93 f
+  zd/y (zerodetect)                                       0.00       7.93 f
+  zero (out)                                              0.00       7.93 f
+  data arrival time                                                  7.93
+
+  clock clk (rise edge)                                  40.00      40.00
+  clock network delay (ideal)                             0.00      40.00
+  output external delay                                  -2.00      38.00
+  data required time                                                38.00
+  --------------------------------------------------------------------------
+  data required time                                                38.00
+  data arrival time                                                 -7.93
+  --------------------------------------------------------------------------
+  slack (MET)                                                       30.07
+
+
+1

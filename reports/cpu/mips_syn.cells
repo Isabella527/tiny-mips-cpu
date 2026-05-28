@@ -1,0 +1,26 @@
+ 
+****************************************
+Report : cell
+Design : mips
+Version: O-2018.06-SP1
+Date   : Sun May 10 13:34:35 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+ac                        alucontrol                      4302.000000
+                                                                    h
+cont                      controller                      24615.000000
+                                                                    h, n
+dp                        datapath                        271557.000000
+                                                                    h, n
+--------------------------------------------------------------------------------
+Total 3 cells                                             300474.000000
+1

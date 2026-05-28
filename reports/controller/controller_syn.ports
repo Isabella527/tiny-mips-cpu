@@ -1,0 +1,141 @@
+ 
+****************************************
+Report : port
+        -verbose
+Design : controller
+Version: O-2018.06-SP1
+Date   : Sun May 10 13:34:03 2026
+****************************************
+
+
+                       Pin      Wire     Max     Max     Connection
+Port           Dir     Load     Load     Trans   Cap     Class      Attrs
+--------------------------------------------------------------------------------
+clk            in      0.0000   0.0000   --      --      --         
+op[0]          in      0.0000   0.0000   --      --      --         
+op[1]          in      0.0000   0.0000   --      --      --         
+op[2]          in      0.0000   0.0000   --      --      --         
+op[3]          in      0.0000   0.0000   --      --      --         
+op[4]          in      0.0000   0.0000   --      --      --         
+op[5]          in      0.0000   0.0000   --      --      --         
+reset          in      0.0000   0.0000   --      --      --         
+zero           in      0.0000   0.0000   --      --      --         
+aluop[0]       out     0.0000   0.0000   --      --      --         
+aluop[1]       out     0.0000   0.0000   --      --      --         
+alusrca        out     0.0000   0.0000   --      --      --         
+alusrcb[0]     out     0.0000   0.0000   --      --      --         
+alusrcb[1]     out     0.0000   0.0000   --      --      --         
+iord           out     0.0000   0.0000   --      --      --         
+irwrite[0]     out     0.0000   0.0000   --      --      --         
+irwrite[1]     out     0.0000   0.0000   --      --      --         
+irwrite[2]     out     0.0000   0.0000   --      --      --         
+irwrite[3]     out     0.0000   0.0000   --      --      --         
+memread        out     0.0000   0.0000   --      --      --         
+memtoreg       out     0.0000   0.0000   --      --      --         
+memwrite       out     0.0000   0.0000   --      --      --         
+pcen           out     0.0000   0.0000   --      --      --         
+pcsource[0]    out     0.0000   0.0000   --      --      --         
+pcsource[1]    out     0.0000   0.0000   --      --      --         
+regdst         out     0.0000   0.0000   --      --      --         
+regwrite       out     0.0000   0.0000   --      --      --         
+
+
+              External  Max             Min                Min       Min
+              Number    Wireload        Wireload           Pin       Wire
+Port          Points    Model           Model              Load      Load
+--------------------------------------------------------------------------------
+clk                1      --              --              --        -- 
+op[0]              1      --              --              --        -- 
+op[1]              1      --              --              --        -- 
+op[2]              1      --              --              --        -- 
+op[3]              1      --              --              --        -- 
+op[4]              1      --              --              --        -- 
+op[5]              1      --              --              --        -- 
+reset              1      --              --              --        -- 
+zero               1      --              --              --        -- 
+aluop[0]           1      --              --              --        -- 
+aluop[1]           1      --              --              --        -- 
+alusrca            1      --              --              --        -- 
+alusrcb[0]         1      --              --              --        -- 
+alusrcb[1]         1      --              --              --        -- 
+iord               1      --              --              --        -- 
+irwrite[0]         1      --              --              --        -- 
+irwrite[1]         1      --              --              --        -- 
+irwrite[2]         1      --              --              --        -- 
+irwrite[3]         1      --              --              --        -- 
+memread            1      --              --              --        -- 
+memtoreg           1      --              --              --        -- 
+memwrite           1      --              --              --        -- 
+pcen               1      --              --              --        -- 
+pcsource[0]        1      --              --              --        -- 
+pcsource[1]        1      --              --              --        -- 
+regdst             1      --              --              --        -- 
+regwrite           1      --              --              --        -- 
+
+                    Input Delay
+                  Min             Max       Related   Max
+Input Port    Rise    Fall    Rise    Fall   Clock  Fanout
+--------------------------------------------------------------------------------
+clk           --      --      --      --      --      -- 
+op[0]         2.00    2.00    2.00    2.00  clk       --    
+op[1]         2.00    2.00    2.00    2.00  clk       --    
+op[2]         2.00    2.00    2.00    2.00  clk       --    
+op[3]         2.00    2.00    2.00    2.00  clk       --    
+op[4]         2.00    2.00    2.00    2.00  clk       --    
+op[5]         2.00    2.00    2.00    2.00  clk       --    
+reset         2.00    2.00    2.00    2.00  clk       --    
+zero          2.00    2.00    2.00    2.00  clk       --    
+
+
+               Max Drive      Min Drive      Resistance    Min    Min       Cell
+Input Port    Rise    Fall   Rise    Fall   Max     Min    Cap    Fanout    Deg
+--------------------------------------------------------------------------------
+clk           --      --     --      --     --      --     --     --        -- 
+op[0]         --      --     --      --     --      --     --     --        -- 
+op[1]         --      --     --      --     --      --     --     --        -- 
+op[2]         --      --     --      --     --      --     --     --        -- 
+op[3]         --      --     --      --     --      --     --     --        -- 
+op[4]         --      --     --      --     --      --     --     --        -- 
+op[5]         --      --     --      --     --      --     --     --        -- 
+reset         --      --     --      --     --      --     --     --        -- 
+zero          --      --     --      --     --      --     --     --        -- 
+
+
+               Max Tran        Min Tran
+Input Port    Rise    Fall    Rise    Fall
+--------------------------------------------------------------------------------
+clk           --      --      --      -- 
+op[0]         --      --      --      -- 
+op[1]         --      --      --      -- 
+op[2]         --      --      --      -- 
+op[3]         --      --      --      -- 
+op[4]         --      --      --      -- 
+op[5]         --      --      --      -- 
+reset         --      --      --      -- 
+zero          --      --      --      -- 
+
+
+                    Output Delay
+                  Min             Max      Related  Fanout
+Output Port   Rise    Fall    Rise    Fall  Clock     Load
+--------------------------------------------------------------------------------
+aluop[0]      2.00    2.00    2.00    2.00  clk       0.00  
+aluop[1]      2.00    2.00    2.00    2.00  clk       0.00  
+alusrca       2.00    2.00    2.00    2.00  clk       0.00  
+alusrcb[0]    2.00    2.00    2.00    2.00  clk       0.00  
+alusrcb[1]    2.00    2.00    2.00    2.00  clk       0.00  
+iord          2.00    2.00    2.00    2.00  clk       0.00  
+irwrite[0]    2.00    2.00    2.00    2.00  clk       0.00  
+irwrite[1]    2.00    2.00    2.00    2.00  clk       0.00  
+irwrite[2]    2.00    2.00    2.00    2.00  clk       0.00  
+irwrite[3]    2.00    2.00    2.00    2.00  clk       0.00  
+memread       2.00    2.00    2.00    2.00  clk       0.00  
+memtoreg      2.00    2.00    2.00    2.00  clk       0.00  
+memwrite      2.00    2.00    2.00    2.00  clk       0.00  
+pcen          2.00    2.00    2.00    2.00  clk       0.00  
+pcsource[0]   2.00    2.00    2.00    2.00  clk       0.00  
+pcsource[1]   2.00    2.00    2.00    2.00  clk       0.00  
+regdst        2.00    2.00    2.00    2.00  clk       0.00  
+regwrite      2.00    2.00    2.00    2.00  clk       0.00  
+
+1

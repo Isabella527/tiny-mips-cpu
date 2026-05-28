@@ -1,0 +1,42 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : controller
+Version: O-2018.06-SP1
+Date   : Sun May 10 13:34:02 2026
+****************************************
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: zero (input port clocked by clk)
+  Endpoint: pcen (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     2.00       2.00 r
+  zero (in)                                0.00       2.00 r
+  U38/Y (AOI21X1)                          0.10       2.10 f
+  U37/Y (NAND2X1)                          0.08       2.18 r
+  pcen (out)                               0.00       2.18 r
+  data arrival time                                   2.18
+
+  clock clk (rise edge)                   40.00      40.00
+  clock network delay (ideal)              0.00      40.00
+  output external delay                   -2.00      38.00
+  data required time                                 38.00
+  -----------------------------------------------------------
+  data required time                                 38.00
+  data arrival time                                  -2.18
+  -----------------------------------------------------------
+  slack (MET)                                        35.82
+
+
+1
